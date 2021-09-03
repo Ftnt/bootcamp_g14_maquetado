@@ -1,0 +1,34 @@
+
+/* prioridad 
+
+
+*/
+
+#body{
+    background-color:thistle;
+}
+
+#parrafo{
+    color: yellow;
+}
+
+#parrafo2{
+    color: red;
+}
+
+p{
+    color: #fff;
+}
+/* Definir estilos de la clase caja */
+
+.caja{
+    border: 1px solid #fff;
+    height: 50px;
+    width: 200px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.caja#cajaRoja{
+    border: 1px solid #f00;
+}
