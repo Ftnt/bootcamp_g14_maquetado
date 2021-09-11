@@ -5,9 +5,30 @@
     font-family: Helvetica, sans-serif;
 }
 
+/* movil 
+320 480
+481 720
+721 1024
+1024 1366
+1366 1440*/
+@media (min-width: 320px) and (max-width: 768px){
+    .card-primary{
+        width: 768px;
+    }
+
+    .nav figure img{
+        width: 2.75em;
+    }
+}
+
 body{
     background-color: #000;
 }
+
+/* header{
+    position: absolute;
+    width: 100%;
+} */
 
 header nav{
     max-width: 1920px;
@@ -20,10 +41,18 @@ header nav{
     background-color: transparent;
 }
 
+/* header nav img{
+    font-size: 1em;
+} */
+
+.nav figure img{
+    width: 7em;
+} 
+
 .nav__options{
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .nav__options select{
@@ -38,6 +67,7 @@ header nav{
     text-decoration: none;
     background-color: red;
     padding: 0.5rem 1rem;
+    border-radius: 4px;
 }
 
 /* Body */
@@ -145,6 +175,7 @@ header nav{
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    /* flex-wrap: wrap; */
 }
 
 .land--p{
