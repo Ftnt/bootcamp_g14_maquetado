@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif, Arial;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background: #0e6cff;
+  min-height: 70vh;
+}
+
+header nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding: 20px 0;
+}
+
+header nav .logo {
+  font-size: 1.5em;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  gap: 2em;
+}
+
+header .showcas-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+header .showcas-content .section-col {
+  max-width: 50%;
+  color: #fff;
+}
+
+header .showcas-content .section-col h1 {
+  font-size: 2em;
+}
+
+header .showcas-content .section-col p {
+  line-height: 1.5em;
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+header .showcas-content img {
+  max-width: 30em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .8em 1.6em;
+  border-radius: 7px;
+  margin: 4px;
+  color: #fff;
+}
+
+.btn.btn-primary {
+  background-color: #3785ff;
+}
+
+.btn.btn-secondary {
+  background-color: #cc6c00;
+}
+
+.btn:hover {
+  background-color: tomato;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  header .ov-x {
+    overflow-x: hidden;
+  }
+  header .showcas-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  header .showcas-content .section-col {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+/*# sourceMappingURL=styles.css.map */
